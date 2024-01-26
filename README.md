@@ -5,18 +5,18 @@ Download dataset from [here](https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.
 ## 1. EDA
 ### Run from video _x_ to video _y_ (x = 1 and y = 3 by default)
 ```
-python visualized_video --start_video x --end_video y
+python eda.py --start_video x --end_video y
 ```
 or
 ```
-python visualized_video -sv x -ev y
+python eda.py -sv x -ev y
 ```
 
 ### Run a specific video _x_
 ```
-python visualized_video --only_video x
+python eda.py --only_video x
 ```
 or
 ```
-python visualized_video -ov x
+python eda.py -ov x
 ```
